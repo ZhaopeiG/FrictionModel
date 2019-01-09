@@ -38,10 +38,10 @@ classdef LuGreModel
     end
     
     properties (Dependent)
-        LuGreFrictionForce
-        Dotz
-        g
-        h
+        LuGreFrictionForce  % the calculated friction force
+        Dotz                % the derivation of z
+        g                   % equation of g, see the thesis mentioned above
+        h                   % equation of h, see the thesis mentioned above
     end
        
     methods
